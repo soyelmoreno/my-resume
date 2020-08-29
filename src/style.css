@@ -1,0 +1,31 @@
+/* || Common */
+
+/* Make box-sizing be border-box everywhere, unless overridden */
+* {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  margin: 0;
+}
+
+/* || Layout */
+
+/* || Typography */
+
+html {
+  font-family: Source Sans Pro, Calibri, Arial, sans-serif;
+}
+
+/* || Decoration */
