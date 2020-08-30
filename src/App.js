@@ -7,7 +7,7 @@ const App = () => {
       <header>
         <div className="contact">
           <div className="contact-name">CARLOS MORENO, PhD</div>
-          <div className="contact-name">
+          <div className="contact-info">
             <p>
               2309 N 193<sup>rd</sup> St., Shoreline, WA 98133
               <br />
@@ -35,6 +35,7 @@ const App = () => {
               </span>
             </h3>
             <h4 className="title">Front End Web Developer</h4>
+
             <ul className="tasks">
               <li>
                 Principal developer responsible for creating HTML structure and
@@ -61,13 +62,14 @@ const App = () => {
           </li>
 
           <li className="job">
-            <p>
-              Daedalus Software, Inc. | Cambridge, MA | March 2011 &ndash; March
-              2013
-            </p>
-            <p>
-              <em>Web Developer</em>
-            </p>
+            <h3>
+              <span className="company">Daedalus Software, Inc.</span>
+              <span className="city-dates">
+                | Cambridge, MA | March 2011 &ndash; March 2013
+              </span>
+            </h3>
+            <h4 className="title">Web Developer</h4>
+
             <ul>
               <li>
                 Created custom Wordpress themes for redesign of company&rsquo;s
@@ -92,9 +94,8 @@ const App = () => {
                 <strong>HTML, CSS, JavaScript, PHP</strong>
               </li>
             </ul>
-            <p>
-              <em>Technical Support Engineer</em>
-            </p>
+
+            <h4 className="title">Technical Support Engineer</h4>
             <ul>
               <li>
                 Provided IT and technical support to clients for enterprise
@@ -107,9 +108,8 @@ const App = () => {
                 protected health information from database. <strong>SQL</strong>
               </li>
             </ul>
-            <p>
-              <em>Product Manager</em>
-            </p>
+
+            <h4 className="title">Product Manager</h4>
             <ul>
               <li>
                 Managed product release scope. Gathered requirements and
@@ -125,14 +125,18 @@ const App = () => {
           </li>
 
           <li className="job">
-            <p>Independent Web Developer | 2002 &ndash; present</p>
+            <h3>
+              <span className="company">Independent Web Developer</span>
+              <span className="city-dates">| 2002 &ndash; present</span>
+            </h3>
+
             <ul>
               <li>
                 ArturAndTailors.com: Custom-tailored suits and costumes for
                 Broadway
               </li>
             </ul>
-            <p>
+            <p class="desc">
               Converted complex Photoshop design files into website layout.
               Developed a database-driven photo gallery using modern front-end
               technologies for enhancing usability. Developed content management
@@ -145,7 +149,7 @@ const App = () => {
             <ul>
               <li>TangoDeLosMuertos.com: International tango festival</li>
             </ul>
-            <p>
+            <p class="desc">
               Coded website from wireframe design. Developed e-commerce
               registration system (500 unique registrants) with multi-page
               client-side form. Wrote Excel macros for producing on-site
@@ -155,7 +159,7 @@ const App = () => {
             <ul>
               <li>MorenoTango.com: Argentine tango dance instruction</li>
             </ul>
-            <p>
+            <p class="desc">
               Coded website and e-commerce registration forms for dance lessons
               and tango jam events. <strong>PHP, MySQL</strong>
             </p>
@@ -173,10 +177,14 @@ const App = () => {
           </li>
 
           <li className="job">
-            <p>Harvard University | Cambridge, MA | 2003 &ndash; 2010</p>
-            <p>
-              <em>Graduate Research Assistant</em>
-            </p>
+            <h3>
+              <span className="company">Harvard University</span>
+              <span className="city-dates">
+                | Cambridge, MA | Sept 2003 &ndash; June 2010
+              </span>
+            </h3>
+            <h4 className="title">Graduate Research Assistant</h4>
+
             <ul>
               <li>
                 Wrote scripts, functions, and user interfaces for processing

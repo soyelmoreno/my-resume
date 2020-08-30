@@ -1,4 +1,4 @@
-/* || Common */
+/* || Base */
 
 /* Make box-sizing be border-box everywhere, unless overridden */
 * {
@@ -20,12 +20,68 @@ p {
   margin: 0;
 }
 
-/* || Layout */
-
-/* || Typography */
-
 html {
   font-family: Source Sans Pro, Calibri, Arial, sans-serif;
 }
 
-/* || Decoration */
+/* || Layout */
+/* Rules to divide the major components of a site */
+@media (min-width: 900px) {
+  .wrapper {
+    max-width: calc(900px - 1rem);
+    margin: 0 auto;
+  }
+}
+
+header {
+  padding: 1rem;
+}
+
+section {
+  padding: 1rem;
+}
+
+/* || Modules */
+/* Rules for reusable, modular parts, the minor components of our site */
+@media (min-width: 750px) {
+  .contact {
+    display: flex;
+  }
+  .contact-name {
+    flex: 1 1 0px;
+  }
+}
+
+header > p {
+  margin-top: 1rem;
+}
+
+.jobs {
+  list-style-type: none;
+  padding: 0;
+}
+
+.job {
+  border: 1px solid red;
+}
+
+.title {
+  font-style: italic;
+}
+
+.desc {
+  padding-left: 4rem;
+}
+
+/* || State */
+/* Rules to describe how our modules or layouts will look in a particular state */
+
+/* || Theme */
+/* Rules to describe how our modules or layouts will look */
+
+header {
+  border-bottom: 1px solid #ccc;
+}
+.contact-name {
+  font-size: 2rem;
+}
