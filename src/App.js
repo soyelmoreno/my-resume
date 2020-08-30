@@ -16,7 +16,7 @@ const App = () => {
           </div>
         </div>
         <p>
-          Versatile software developer seeking rewarding application development
+          Versatile software engineer seeking rewarding application development
           position. Proficient with software design, development, testing and
           deployment on many platforms. Adept at analyzing complex systems and
           engineering smarter solutions. Passionate about building tools with
@@ -34,29 +34,30 @@ const App = () => {
                 | Cambridge, MA | April 2013 &ndash; August 2020
               </span>
             </h3>
-            <h4 className="title">Front End Web Developer</h4>
 
+            <h4 className="title">Front End Web Developer</h4>
             <ul className="tasks">
               <li>
-                Principal developer responsible for creating HTML structure and
-                CSS style rules to implement high-performing, web
-                standards-based e-commerce application from wireframes and
-                previous Flex design.
-                <strong>HTML, CSS</strong>
+                Responsible for delivering clean, accessible HTML structure and
+                CSS layouts from design wireframes in complex, high-preformance
+                e-commerce applications.
               </li>
               <li>
-                Created working prototypes of applications that met
-                accessibility guidelines.
-              </li>
-              <li>Learned JAWS and accessibility guidelines.</li>
-              <li>
-                Assisted with debugging JavaScript in other applications within
-                the product line.
+                Principal developer for creating cutting-edge CSS page layouts,
+                component layouts, and styling rules.
               </li>
               <li>
-                Remediation application behavior from Flex technology to
-                standards-based Javascript using combination of hand-written
-                code and JavaScript libraries. <strong>JavaScript</strong>
+                Principal developer for adhering to accessibility guidelines and
+                WAI-ARIA best practices. Proficient with JAWS.
+              </li>
+              <li>
+                Helped create building block components for other authors to
+                consume using a combination of hand-written code and Javascript
+                libraries.
+              </li>
+              <li>
+                Created working prototypes of applications, wrote technical
+                documentation, gave presentations on styling and accessibility
               </li>
             </ul>
           </li>
@@ -74,7 +75,6 @@ const App = () => {
               <li>
                 Created custom Wordpress themes for redesign of company&rsquo;s
                 website.
-                <strong>HTML, CSS, JavaScript, PHP</strong>
               </li>
               <li>
                 Fixed bugs, gathered specifications, implemented new
@@ -82,16 +82,14 @@ const App = () => {
                 applications. Including: customized client reports, complex
                 client-side user interface behaviors, refactoring database
                 schema to accommodate shifting data relationships.
-                <strong>JavaScript, C#, ASP.NET, SQL, SSRS</strong>
               </li>
               <li>
                 Significantly improved application performance in a multi-user
-                environment. <strong>C#, ASP.NET, SQL</strong>
+                environment.
               </li>
               <li>
                 Wrote standalone GUI tool to streamline creation of
-                client-customized web forms.{' '}
-                <strong>HTML, CSS, JavaScript, PHP</strong>
+                client-customized web forms.
               </li>
             </ul>
 
@@ -105,7 +103,7 @@ const App = () => {
                 Performed deployments to client&rsquo;s staging and production
                 servers. Key engineer in creating back-end scripts for
                 deployment, testing, correcting data entry errors, and removing
-                protected health information from database. <strong>SQL</strong>
+                protected health information from database.
               </li>
             </ul>
 
@@ -136,42 +134,38 @@ const App = () => {
                 Broadway
               </li>
             </ul>
-            <p class="desc">
+            <p className="desc">
               Converted complex Photoshop design files into website layout.
               Developed a database-driven photo gallery using modern front-end
               technologies for enhancing usability. Developed content management
               system with administration module for handling user-uploaded
               images and meta-data, featuring draggable/sortable photos and
               user-defined dropdowns.
-              <strong>Photoshop,</strong>
-              <strong>HTML, CSS3, jQuery, AJAX, PHP, MySQL </strong>
             </p>
             <ul>
               <li>TangoDeLosMuertos.com: International tango festival</li>
             </ul>
-            <p class="desc">
+            <p className="desc">
               Coded website from wireframe design. Developed e-commerce
               registration system (500 unique registrants) with multi-page
               client-side form. Wrote Excel macros for producing on-site
               materials.
-              <strong>JavaScript, PHP, VBA</strong>
             </p>
             <ul>
               <li>MorenoTango.com: Argentine tango dance instruction</li>
             </ul>
-            <p class="desc">
+            <p className="desc">
               Coded website and e-commerce registration forms for dance lessons
-              and tango jam events. <strong>PHP, MySQL</strong>
+              and tango jam events.
             </p>
             <ul>
               <li>
                 Concord Field Station: Coded website for Harvard University
-                research facility. <strong>HTML, CSS, JavaScript</strong>
+                research facility.
               </li>
               <li>
                 CoachSandi.com, SheilaErimez.com: Websites developed from
                 wireframes.
-                <strong>PHP, Wordpress</strong>
               </li>
             </ul>
           </li>
@@ -188,7 +182,7 @@ const App = () => {
             <ul>
               <li>
                 Wrote scripts, functions, and user interfaces for processing
-                data and analyzing results. <strong>MATLAB, LabVIEW</strong>
+                data and analyzing results.
               </li>
               <li>
                 Designed novel experiments to assess locomotion in goats.
@@ -203,16 +197,17 @@ const App = () => {
         <h2>Skills</h2>
         <ul className="skills">
           <li>
-            <strong>Strong:</strong>&nbsp; HTML, CSS, JavaScript, jQuery,
-            jQueryUI, Knockout, Require, PHP, MySQL, C#, ASP.NET, SSRS, MATLAB.
+            <strong>Strong:</strong> HTML5, CSS3, JavaScript, Oracle JET,
+            Knockout, Require, jQuery, jQueryUI, PHP, MySQL, C#, ASP.NET, SQL,
+            SSRS, MATLAB
           </li>
           <li>
-            <strong>Familiar with:</strong> AJAX, Java, JSP, C/C++, Python, XML,
-            LabVIEW, VBA, Assembly, JAWS.
+            <strong>Familiar with:</strong> React, AJAX, Java, JSP, C/C++,
+            Python, XML, LabVIEW, VBA, Assembly.
           </li>
           <li>
-            <strong>Development Tools:</strong> NetBeans, Notepad++, Microsoft
-            Visual Studio, Wordpress, Dreamweaver.
+            <strong>Development Tools:</strong> Git, VS Code, JAWS, Notepad++,
+            Bash, NetBeans, Microsoft Visual Studio, SVN, Wordpress, Dreamweaver
           </li>
           <li>
             <strong>Design Software:</strong> Adobe Photoshop, Illustrator,

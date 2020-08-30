@@ -24,26 +24,31 @@ html {
   font-family: Source Sans Pro, Calibri, Arial, sans-serif;
 }
 
+
+
+
+
+
 /* || Layout */
 /* Rules to divide the major components of a site */
-@media (min-width: 900px) {
+@media screen and (min-width: 900px) {
   .wrapper {
     max-width: calc(900px - 1rem);
     margin: 0 auto;
   }
 }
 
-header {
-  padding: 1rem;
-}
 
-section {
-  padding: 1rem;
-}
+
+
+
 
 /* || Modules */
 /* Rules for reusable, modular parts, the minor components of our site */
-@media (min-width: 750px) {
+
+
+
+@media all and (min-width: 750px) {
   .contact {
     display: flex;
   }
@@ -52,36 +57,71 @@ section {
   }
 }
 
-header > p {
-  margin-top: 1rem;
-}
-
 .jobs {
   list-style-type: none;
   padding: 0;
+  margin: 0;
 }
 
-.job {
-  border: 1px solid red;
-}
 
-.title {
-  font-style: italic;
-}
 
-.desc {
-  padding-left: 4rem;
-}
+
+
+
+
 
 /* || State */
 /* Rules to describe how our modules or layouts will look in a particular state */
+
+
+
+
 
 /* || Theme */
 /* Rules to describe how our modules or layouts will look */
 
 header {
+  padding: 1rem;
   border-bottom: 1px solid #ccc;
 }
+
+header > p {
+  margin-top: 1rem;
+}
+
 .contact-name {
   font-size: 2rem;
+}
+
+section {
+  padding: 0 1rem;
+}
+
+section > h2 {
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: normal;
+}
+
+.job {
+  padding: 0.25rem;
+}
+
+.job h3 {
+  margin: 0;
+}
+
+.city-dates {
+  font-weight: normal;
+  font-size: 1rem;
+}
+
+.title {
+  margin: 0;
+  font-style: italic;
+  font-weight: normal;
+}
+
+.desc {
+  padding-left: 4rem;
 }
