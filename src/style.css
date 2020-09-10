@@ -11,44 +11,78 @@
   box-sizing: inherit;
 }
 
-body {
-  margin: 0;
-  padding: 0;
-}
-
-p {
-  margin: 0;
+/* VARIABLES */
+:root {
+  --line: #346398;
+  --info: #545454;
 }
 
 html {
   font-family: Source Sans Pro, Calibri, Arial, sans-serif;
 }
 
+body {
+  margin: 0;
+  padding: 0;
+}
 
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
 
+h2 {
+  font-size: 1.5rem; /* 24px */
+}
 
+h3 {
+  font-size: 1.125rem; /* 18px */
+}
 
+h4 {
+  font-size: 1rem;
+}
+
+p {
+  margin: 0;
+  font-size: 1rem;
+}
+
+a {
+  color: var(--info);
+}
 
 /* || Layout */
 /* Rules to divide the major components of a site */
-@media screen and (min-width: 900px) {
+.wrapper {
+  margin: 1rem 1rem 2rem;
+}
+
+@media screen and (min-width: 750px) {
   .wrapper {
-    max-width: calc(900px - 1rem);
-    margin: 0 auto;
+    margin: 1rem 2rem 2rem;
   }
 }
 
+@media screen and (min-width: 900px) {
+  .wrapper {
+    /* 5rem takes into account:
+    - 2rem on left and right
+    - 1rem for scrollbar */
+    max-width: calc(900px - 5rem);
+    margin: 1rem auto 2rem;
+  }
+}
 
+.contact-info {
+  text-align: start;
+}
 
-
-
-
-/* || Modules */
-/* Rules for reusable, modular parts, the minor components of our site */
-
-
-
-@media all and (min-width: 750px) {
+@media screen and (min-width: 750px) {
+  .contact-info {
+    text-align: end;
+  }
   .contact {
     display: flex;
   }
@@ -57,32 +91,47 @@ html {
   }
 }
 
+/* || Modules */
+/* Rules for reusable, modular parts, the minor components of our site */
+
 .jobs {
-  list-style-type: none;
   padding: 0;
   margin: 0;
 }
 
-
-
-
-
-
-
-
 /* || State */
 /* Rules to describe how our modules or layouts will look in a particular state */
 
-
-
-
+@media print {
+  html {
+    font-size: 14px;
+  }
+  #root {
+    /* border: 1px solid red; */
+  }
+  .wrapper {
+    width: 7.5in;
+    height: 10.5in;
+    margin: 0.25in 0.5in;
+    /* border: 1px solid var(--line); */
+  }
+  .contact {
+    display: flex;
+  }
+  .contact-name {
+    flex: 1 1 0px;
+  }
+  .contact-info {
+    text-align: end;
+  }
+}
 
 /* || Theme */
 /* Rules to describe how our modules or layouts will look */
 
 header {
   padding: 1rem;
-  border-bottom: 1px solid #ccc;
+  border-bottom: 1px solid var(--line);
 }
 
 header > p {
@@ -93,6 +142,10 @@ header > p {
   font-size: 2rem;
 }
 
+.contact-info {
+  color: var(--info);
+}
+
 section {
   padding: 0 1rem;
 }
@@ -100,15 +153,22 @@ section {
 section > h2 {
   text-align: center;
   text-transform: uppercase;
-  font-weight: normal;
+  /* font-weight: normal; */
+  color: var(--line);
+  margin: 0.75rem 0 0.25rem;
 }
 
 .job {
-  padding: 0.25rem;
+  padding-bottom: 0.5rem;
 }
 
 .job h3 {
   margin: 0;
+}
+
+.tasks {
+  list-style-type: circle;
+  padding-left: 40px;
 }
 
 .city-dates {
@@ -120,8 +180,4 @@ section > h2 {
   margin: 0;
   font-style: italic;
   font-weight: normal;
-}
-
-.desc {
-  padding-left: 4rem;
 }

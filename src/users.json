@@ -1,0 +1,109 @@
+{
+  "bob": {
+    "firstName": "Robert",
+    "lastName": "Jackson",
+    "email": "bobjack@yahoo.com",
+    "phone": "(206) 488-1111"
+  },
+  "cm": {
+    "firstName": "Carlos",
+    "lastName": "Moreno",
+    "suffix": "PhD",
+    "phone": "(617) 840-9044",
+    "email": "soyelmoreno@gmail.com",
+    "addr": "2309 N 193rd St., Shoreline, WA 98133",
+    "addrhtml": {
+      "sub": "rd",
+      "tag": "sup"
+    },
+    "summary": "Versatile software engineer with a passion for building effective tools and applications. My 9+ years of industry experience has equipped me with strong technical skills, and skills from my academic background set me apart from other engineers. Seeking a challenging position to learn new technologies and solve complex problems.",
+    "jobsimple": "Front End Web Developer",
+    "jobs": [
+      {
+        "company": "Oracle, Inc",
+        "city": "Cambridge, MA",
+        "dates": "April 2013 - August 2020",
+        "roles": [
+          {
+            "title": "Front End Web Developer",
+            "tasks": [
+              "Responsible for delivering clean, accessible HTML structure and CSS styles from design wireframes in complex, high-performance e-commerce applications.",
+              "Served as liaison between Design/UX team and dev teams.",
+              "Lead developer for producing cutting-edge CSS styling rules and page layouts",
+              "Lead developer for adhering to accessibility guidelines and WAI-ARIA best practices. Proficient with JAWS. Assisted BA and QA teams in writing functional specifications and tests related to accessibility.",
+              "Remediated web applications built with older technologies to modern Javascript libraries and the Oracle JET framework. Created working prototypes and building block components for others to consume.",
+              "Organized SASS/CSS files in codebase. Wrote SASS compilation build scripts, HTML/CSS coding standards, technical documentation. Gave presentations on styling and accessibility.",
+              "Implemented systems for supporting bi-directional languages, internationalized strings, browser text zooming, icon fonts, cross-browser compatibility, and modern Flexbox and Grid layouts."
+            ]
+          }
+        ]
+      },
+      {
+        "company": "Daedalus Software, Inc.",
+        "city": "Cambridge, MA",
+        "dates": "March 2011 – March 2013",
+        "roles": [
+          {
+            "title": "Web Developer",
+            "tasks": [
+              "Fixed bugs, implemented new functionality in UI, business, and database layers of enterprise C#.NET biobanking applications. Including: customized SSRS reports, complex client-side UI behaviors, refactoring database schema to accommodate shifting data relationships."
+            ]
+          },
+          {
+            "title": "Technical Support Engineer",
+            "tasks": [
+              "Provided IT and technical support to clients. Performed deployments to client's staging/production servers. Wrote SQL scripts for deployment, correcting data entry errors, and removing protected health information."
+            ]
+          },
+          {
+            "title": "Product Manager",
+            "tasks": [
+              "Gathered requirements, managed product release scope. Provided demos/training to clients.",
+              "Wrote software documentation, functional specifications, test scripts, and traceability matrices."
+            ]
+          }
+        ]
+      },
+      {
+        "company": "Independent Web Developer",
+        "city": null,
+        "dates": "2002 - present",
+        "roles": [
+          {
+            "title": null,
+            "tasks": [
+              "<a href=\"http://www.arturandtailors.com\" _target=\"blank\">ArturAndTailors.com </a>: Mobile-first, responsive layout. Database-driven photo gallery with rapid image navigation. Customized content management system. HTML5, CSS3, Javascript/jQuery, PHP, MySQL",
+              "<a href=\"http://www.tangodelosmuertos.com\" _target=\"blank\">TangoDeLosMuertos.com </a>: Website, registration system, and on-site materials for international tango festival",
+              "<a href=\"http://www.morenotango.com\" _target=\"blank\">MorenoTango.com</a>: Website and registration forms for Argentine tango dance instruction and events"
+            ]
+          }
+        ]
+      },
+      {
+        "company": "Harvard University",
+        "city": "Cambridge, MA",
+        "dates": "Sept 2003 - June 2010",
+        "roles": [
+          {
+            "title": "Graduate Research Assistant",
+            "tasks": [
+              "Wrote scripts, functions, and user interfaces for processing data and analyzing results.",
+              "Research examined turning locomotion in goats. Published research, presented at major conferences.",
+              "Teaching assistant in undergraduate biology courses. Strong communication, teaching, and organizational skills."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+
+  "superuser": {
+    "firstName": "Superman",
+    "lastName": "Gonzalez",
+    "suffix": "Deleon",
+    "phone": "(253) 566-2222",
+    "email": "superman@gmail.com",
+    "addr": "1234 NE 145th St, Krypton, 98011",
+    "summary": "I don't need a job because I am all powerful and I can do tons of cool stuff. For that matter, I can pay my bills with my laser eyes. Also, I can fly around and save people and stuff."
+  }
+}
