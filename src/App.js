@@ -24,7 +24,7 @@ function JobList(props) {
       <h3>
         <span className="company">{job.company}</span>
         <span className="city-dates">
-          | {job.city} | {job.dates}
+          {job.city ? ' |' : ''} {job.city} | {job.dates}
         </span>
       </h3>
 
@@ -33,6 +33,23 @@ function JobList(props) {
     </li>
   ));
   return <ul className="jobs">{jobItems}</ul>;
+}
+
+function SkillList(props) {
+  const strongItems = props.skills.strong.join(', ');
+  const familiarItems = props.skills.familiar.join(', ');
+  return (
+    <ul className="jobs">
+      <React.Fragment>
+        <li className="job">
+          <strong>Strong: </strong> {strongItems}
+        </li>
+        <li className="job">
+          <strong>Familiar:</strong> {familiarItems}
+        </li>
+      </React.Fragment>
+    </ul>
+  );
 }
 
 function RoleList(props) {
@@ -50,7 +67,23 @@ function RoleList(props) {
 
 function TaskList(props) {
   const tasks = props.tasks;
-  const taskItems = tasks.map((task) => <li key={task}>{task}</li>);
+  const taskItems = tasks.map((task) => {
+    if (typeof task === 'string') {
+      return <li key={task}>{task}</li>;
+    } else {
+      // `task` is an object
+      if (task.enabled) {
+        return (
+          <li key={task.itemtext}>
+            <a href={task.linkurl} target="_blank" rel="noopener noreferrer">
+              {task.linktext}
+            </a>
+            {task.itemtext}
+          </li>
+        );
+      }
+    }
+  });
   return <ul className="tasks">{taskItems}</ul>;
 }
 
@@ -70,17 +103,7 @@ const App = () => {
 
       <section>
         <h2>Technical Skills</h2>
-        <ul className="jobs">
-          <li>
-            <strong>Strong:</strong> HTML5, CSS3, Responsive Design, SASS,
-            JavaScript, Oracle JET, Knockout, Require, jQuery, PHP, MySQL, Git,
-            SVN, VS Code, Bash, Wordpress, JAWS, Photoshop, Illustrator
-          </li>
-          <li>
-            <strong>Familiar:</strong> React, Node, AJAX, Java, C/C++, C#,
-            ASP.NET, SQL, SSRS, Python, MATLAB, LabVIEW, VBA, Assembly
-          </li>
-        </ul>
+        <SkillList skills={userObj.skills} />
       </section>
 
       <section>
