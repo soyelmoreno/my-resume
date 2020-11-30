@@ -16,7 +16,8 @@
       "sub": "rd",
       "tag": "sup"
     },
-    "summary": "Versatile software engineer with a passion for building effective tools and applications. My 9+ years of industry experience has equipped me with strong technical skills, and skills from my academic background set me apart from other engineers. Seeking a challenging position to learn new technologies and solve complex problems.",
+    "summary1": "Versatile software engineer with a passion for building effective tools and applications. My 9+ years of industry experience has equipped me with strong technical skills, and skills from my academic background set me apart from other engineers. Seeking a challenging position to learn new technologies and solve complex problems.",
+    "summary": "Versatile software engineer with a passion for building effective tools. My 9+ years of industry experience has equipped me with strong technical skills, and skills from my academic background set me apart from others. Seeking a rewarding Front End Engineer position building beautiful UIs using modern web technologies.",
     "jobsimple": "Front End Developer",
     "jobs": [
       {
@@ -26,12 +27,20 @@
         "roles": [
           {
             "title": "Front End Developer",
-            "tasks": [
+            "tasks1": [
               "Remediated high-performance e-commerce applications built with older technologies to modern JavaScript. Customized Oracle JET components as building blocks for team members to consume.",
               "Lead developer for producing clean, accessible HTML and cutting-edge CSS styling rules and page layouts from wireframes. Served as liaison between Design/UX team and dev teams.",
               "Lead developer for adhering to accessibility guidelines and WAI-ARIA best practices. Proficient with JAWS. Assisted BA and QA teams in writing functional specifications and tests related to accessibility.",
               "Organized SASS/CSS files in codebase. Wrote SASS compilation build scripts, HTML/CSS coding standards, technical documentation. Gave presentations on styling and accessibility.",
               "Implemented systems for supporting bi-directional languages, internationalized strings, browser text zooming, icon fonts, cross-browser compatibility, and modern Flexbox and Grid layouts."
+            ],
+            "tasks": [
+              "Remediated high-performance e-commerce applications built with older technologies to modern JavaScript using the Oracle JET framework.",
+              "Created working prototypes and building block components for others to consume.",
+              "Lead developer for producing clean, accessible HTML and cutting-edge SASS/CSS styling rules and page layouts (including Flexbox and Grid) from design wireframes.",
+              "Lead developer for adhering to accessibility guidelines and WAI-ARIA best practices. Proficient with JAWS.",
+              "Wrote SASS build scripts, HTML/CSS coding standards, technical documentation. Gave presentations on styling and accessibility.",
+              "Implemented support for RTL languages, browser text zooming, icon fonts, cross-browser compatibility."
             ]
           }
         ]
@@ -39,7 +48,7 @@
       {
         "company": "Daedalus Software, Inc.",
         "city": "Cambridge, MA",
-        "dates": "March 2011 – March 2013",
+        "dates": "March 2011 - March 2013",
         "roles": [
           {
             "title": "Web Developer",
@@ -114,15 +123,15 @@
         "CSS3",
         "JavaScript",
         "Oracle JET",
-        "KnockoutJS",
         "jQuery",
-        "RequireJS",
-        "Responsive Design",
+        "KnockoutJS",
         "SASS",
-        "PHP",
-        "MySQL",
+        "LESS",
+        "Responsive Design",
         "Git",
         "JAWS",
+        "PHP",
+        "MySQL",
         "Photoshop",
         "Illustrator"
       ],
@@ -133,13 +142,17 @@
         "C#",
         ".NET",
         "Microsoft SQL",
-        "Java",
-        "Python"
+        "Java"
       ],
       "other": [
+        "Python",
+        "Jest",
+        "Jasmine",
+        "Gulp",
+        "Grunt",
+        "RequireJS",
         "ES6",
         "AJAX",
-        "LESS",
         "Bootstrap",
         "SVN",
         "Bash",
@@ -151,7 +164,23 @@
         "VBA",
         "Assembly"
       ]
-    }
+    },
+    "education": [
+      {
+        "id": 1,
+        "school": "Harvard University",
+        "location": "Cambridge, MA",
+        "graduation": "May 2010",
+        "description": "Ph.D., Organismic and Evolutionary Biology"
+      },
+      {
+        "id": 2,
+        "school": "University of Washington",
+        "location": "Seattle, WA",
+        "graduation": "June 2001",
+        "description": "B.S. Zoology. Minor: Music"
+      }
+    ]
   },
 
   "superuser": {

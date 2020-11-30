@@ -1,5 +1,5 @@
 import React from 'react';
-import {render} from 'react-dom';
+import ReactDOM from 'react-dom';
 import Contact from './Contact';
 import users from './users.json';
 
@@ -33,23 +33,6 @@ function JobList(props) {
     </li>
   ));
   return <ul className="jobs">{jobItems}</ul>;
-}
-
-function SkillList(props) {
-  const strongItems = props.skills.strong.join(', ');
-  const familiarItems = props.skills.familiar.join(', ');
-  return (
-    <ul className="jobs">
-      <React.Fragment>
-        <li className="job">
-          <strong>Strong: </strong> {strongItems}
-        </li>
-        <li className="job">
-          <strong>Familiar:</strong> {familiarItems}
-        </li>
-      </React.Fragment>
-    </ul>
-  );
 }
 
 function RoleList(props) {
@@ -87,6 +70,40 @@ function TaskList(props) {
   return <ul className="tasks">{taskItems}</ul>;
 }
 
+function SkillList(props) {
+  const strongItems = props.skills.strong.join(', ');
+  const familiarItems = props.skills.familiar.join(', ');
+  return (
+    <ul className="jobs">
+      <React.Fragment>
+        <li className="job">
+          <strong>Strong: </strong> {strongItems}
+        </li>
+        <li className="job">
+          <strong>Familiar:</strong> {familiarItems}
+        </li>
+      </React.Fragment>
+    </ul>
+  );
+}
+
+function EducationList(props) {
+  const items = props.education.map((item) => {
+    return (
+      <li key={item.id}>
+        <strong>{item.school}</strong>
+        {' | '}
+        {item.location}
+        {' | '}
+        {item.graduation}
+        {' | '}
+        {item.description}
+      </li>
+    );
+  });
+  return <ul className="jobs">{items}</ul>;
+}
+
 // Put it all together
 const App = () => {
   return (
@@ -108,19 +125,10 @@ const App = () => {
 
       <section>
         <h2>Education</h2>
-        <ul className="jobs">
-          <li>
-            <strong>Harvard University</strong> | Cambridge, MA | May 2010 |
-            Ph.D., Organismic and Evolutionary Biology
-          </li>
-          <li>
-            <strong>University of Washington</strong> | Seattle, WA | June 2001
-            | B.S. Zoology. Minor: Music
-          </li>
-        </ul>
+        <EducationList education={userObj.education} />
       </section>
     </div>
   );
 };
 
-render(React.createElement(App), document.getElementById('root'));
+ReactDOM.render(<App />, document.getElementById('root'));
