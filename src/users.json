@@ -34,13 +34,20 @@
               "Organized SASS/CSS files in codebase. Wrote SASS compilation build scripts, HTML/CSS coding standards, technical documentation. Gave presentations on styling and accessibility.",
               "Implemented systems for supporting bi-directional languages, internationalized strings, browser text zooming, icon fonts, cross-browser compatibility, and modern Flexbox and Grid layouts."
             ],
-            "tasks": [
+            "tasks2": [
               "Remediated high-performance e-commerce applications built with older technologies to modern JavaScript using the Oracle JET framework.",
               "Created working prototypes and building block components for others to consume.",
               "Lead developer for producing clean, accessible HTML and cutting-edge SASS/CSS styling rules and page layouts (including Flexbox and Grid) from design wireframes.",
               "Lead developer for adhering to accessibility guidelines and WAI-ARIA best practices. Proficient with JAWS.",
               "Wrote SASS build scripts, HTML/CSS coding standards, technical documentation. Gave presentations on styling and accessibility.",
               "Implemented support for RTL languages, browser text zooming, icon fonts, cross-browser compatibility."
+            ],
+            "tasks": [
+              "Migrated cloud-based e-commerce applications to modern JavaScript using the Oracle JET framework.",
+              "Created application prototypes and building block components for others to consume.",
+              "Lead developer for translating design wireframes into clean, accessible HTML and cutting-edge SASS/CSS styling rules and page layouts (including Flexbox and Grid).",
+              "Lead developer for adhering to WCAG 2.1 web accessibility guidelines. Proficient with JAWS.",
+              "Wrote build scripts, coding standards, technical documentation. Gave talks on styling and accessibility."
             ]
           }
         ]
@@ -49,7 +56,7 @@
         "company": "Daedalus Software, Inc.",
         "city": "Cambridge, MA",
         "dates": "March 2011 - March 2013",
-        "roles": [
+        "roles1": [
           {
             "title": "Web Developer",
             "tasks": [
@@ -69,6 +76,17 @@
               "Wrote software documentation, functional specifications, test scripts, and traceability matrices."
             ]
           }
+        ],
+        "roles": [
+          {
+            "title": "Web Developer, Technical Support Engineer, Product Manager",
+            "tasks": [
+              "Fixed bugs and implemented new features in UI, business, and database layers of enterprise C#.NET biobanking applications.",
+              "Provided IT and database support to clients. Wrote Microsoft SQL scripts for correcting data errors, removing protected health information, and deployment to clients' staging/production servers.",
+              "Gathered requirements, managed product release scope. Provided demos/training to clients.",
+              "Wrote software documentation, functional specifications, test scripts, and traceability matrices."
+            ]
+          }
         ]
       },
       {
@@ -83,7 +101,7 @@
                 "enabled": true,
                 "linkurl": "http://www.arturandtailors.com",
                 "linktext": "ArturAndTailors.com",
-                "itemtext": ": Database-driven photo gallery using AJAX for rapid image navigation. Customized content management system allows client to manage photos. HTML, CSS, JavaScript/jQuery, PHP, MySQL"
+                "itemtext": ": Database-driven photo gallery using AJAX for rapid image navigation. Custom content management system allows client to manage photos. HTML, CSS, JavaScript/jQuery, PHP, MySQL"
               },
               {
                 "enabled": true,
@@ -109,9 +127,8 @@
           {
             "title": "Graduate Research Assistant",
             "tasks": [
-              "Wrote scripts, functions, and user interfaces for processing data and analyzing results.",
-              "Research examined locomotion in animals. Published research, presented at major conferences.",
-              "Teaching assistant in undergraduate courses. Strong communication, teaching, and organizational skills."
+              "Wrote scripts, functions, UIs for processing and analyzing data. Built electronic circuits for collecting data.",
+              "Published research, presented at major conferences, taught and mentored undergraduates."
             ]
           }
         ]
@@ -122,6 +139,8 @@
         "HTML5",
         "CSS3",
         "JavaScript",
+        "ES6",
+        "ReactJS",
         "Oracle JET",
         "jQuery",
         "KnockoutJS",
@@ -129,6 +148,7 @@
         "LESS",
         "Responsive Design",
         "Git",
+        "Bash",
         "JAWS",
         "PHP",
         "MySQL",
@@ -136,26 +156,34 @@
         "Illustrator"
       ],
       "familiar": [
-        "ReactJS",
-        "NodeJS",
         "REST",
+        "NodeJS",
+        "Express",
+        "Redux",
+        "Webpack",
+        "Babel",
+        "Jest",
+        "TypeScript",
         "C#",
         ".NET",
         "Microsoft SQL",
         "Java"
       ],
       "other": [
+        "Bootstrap",
+        "Next.js",
+        "Gatsby",
+        "Bulma",
+        "GraphQL",
+        "Enzyme",
+        "MongoDB",
         "Python",
-        "Jest",
         "Jasmine",
         "Gulp",
         "Grunt",
         "RequireJS",
-        "ES6",
         "AJAX",
-        "Bootstrap",
         "SVN",
-        "Bash",
         "Wordpress",
         "C/C++",
         "SSRS",
